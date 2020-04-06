@@ -1,7 +1,8 @@
-import math
+myList = [6,5,6,2,2]
 
-temperature = float(input("Temperature: "))
-if temperature >= 90:
-    print("It is hot outside.")
-else:
-    print("It is not hot out.")
+seen = []
+for number in myList:
+    if number in seen:
+        print(seen)
+    else:
+        seen.append(number)

@@ -9,7 +9,7 @@ import os
 
 mytext = input("skriv in något här: ")
 
-language = 'sv'
+language = 'is'
 
 myobj = gTTS(text=mytext, lang=language, slow=False)
 
