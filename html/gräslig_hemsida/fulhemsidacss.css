@@ -1,0 +1,49 @@
+H1 {
+    color: blue;
+}
+
+Body {
+    position: relative;
+    animation-name: back;
+    background-color: yellow;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+li {
+    color: lime;
+}
+
+P A {
+    text-decoration: none;
+    color: magenta;
+}
+
+body div img {
+    height: 30vh;
+    width: 30vw;
+    padding-left: 70%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:200px; top:0px;}
+    50%  {background-color:transparent; left:200px; top:-400px;}
+    75%  {background-color:transparent; left:-400px; top:-300px;}
+    100% {background-color:transparent; left:0px; top:0px;}
+  }
+
+
+  @keyframes back {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
